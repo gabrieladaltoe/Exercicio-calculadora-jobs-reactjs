@@ -76,7 +76,7 @@ class App extends Component {
     valorDeHora += 0.2 * valorDeHora; // soma 20% do valor da hora
     valorDeHora = parseFloat(valorDeHora).toFixed(2)
 
-    this.setState({
+    this.setState({//  setState atualiza o DOM virtual sem dar F5
       valueHour: valorDeHora
     })
   }
